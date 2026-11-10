@@ -1,0 +1,25 @@
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.mypy_cache
+.ruff_cache
+Dockerfile
+docker-compose.yml
+.dockerignore
+README.md
+*.md
+
+# Neon CLI scaffolding (not part of the image)
+.neon
+node_modules
+package.json
+package-lock.json
+neon.ts

@@ -1,0 +1,6 @@
+fastapi==0.115.6
+# Plain uvicorn keeps local runs working on any modern Python.
+# The Dockerfile additionally installs uvicorn[standard] for uvloop/httptools.
+uvicorn==0.34.0
+httpx==0.28.1
+python-dotenv==1.0.1
